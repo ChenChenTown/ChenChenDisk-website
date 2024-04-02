@@ -1,6 +1,6 @@
 # ChenChenDisk-website
 Welcome to update the website!
-Visit the website at 
+Visit the website at https://chenchentown.github.io/ChenChenDisk-website/
 ## Start up (Start a server, only local network)
 ### Installation
 > [Releases](https://github.com/ChenChenTown/ChenChenDisk-website/releases) install the source code
