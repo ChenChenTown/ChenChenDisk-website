@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ChenChenDisk</title>
+</head>
+<body>
+    <h1>Welcome to ChenChenDisk</h1>
+    <h2>Upload Files</h2>
+    <form method="post" action="/upload" enctype="multipart/form-data">
+        <input type="file" name="file">
+        <input type="submit" value="Upload">
+    </form>
+    
+    <h2>Files</h2>
+    <ul>
+        {% for file in files %}
+        <li><a href="/download/{{ file[1] }}">{{ file[1] }}</a></li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
