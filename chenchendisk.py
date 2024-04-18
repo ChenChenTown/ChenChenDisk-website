@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 # Function to initialize the database
 def initialize_database():
-    conn = sqlite3.connect('netdisk.db')
+    conn = sqlite3.connect('chenchendisk.db')
     c = conn.cursor()
     c.execute('''CREATE TABLE IF NOT EXISTS files
                  (id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -16,7 +16,7 @@ def initialize_database():
 
 # Function to save file details to the database
 def save_to_database(filename):
-    conn = sqlite3.connect('netdisk.db')
+    conn = sqlite3.connect('chenchendisk.db')
     c = conn.cursor()
     c.execute("INSERT INTO files (filename) VALUES (?)", (filename,))
     conn.commit()
@@ -24,7 +24,7 @@ def save_to_database(filename):
 
 # Function to get file details from the database
 def get_files_from_database():
-    conn = sqlite3.connect('netdisk.db')
+    conn = sqlite3.connect('chenchendisk.db')
     c = conn.cursor()
     c.execute("SELECT * FROM files")
     files = c.fetchall()
