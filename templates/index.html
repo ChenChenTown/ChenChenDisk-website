@@ -5,27 +5,16 @@
 </head>
 <body>
     <h1>Welcome to ChenChenDisk</h1>
-    <h2>Create Folder</h2>
-    <form method="post" action="/create">
-        <input type="text" name="name" placeholder="Folder Name">
-        <input type="hidden" name="is_folder" value="1">
-        <input type="submit" value="Create Folder">
-    </form>
-    
     <h2>Upload Files</h2>
     <form method="post" action="/upload" enctype="multipart/form-data">
         <input type="file" name="file">
         <input type="submit" value="Upload">
     </form>
     
-    <h2>Files and Folders</h2>
+    <h2>Files</h2>
     <ul>
         {% for file in files %}
-            {% if file[2] == 1 %}
-                <li><strong>Folder:</strong> {{ file[1] }}</li>
-            {% else %}
-                <li><a href="/download/{{ file[1] }}">{{ file[1] }}</a></li>
-            {% endif %}
+        <li><a href="/download/{{ file[1] }}">{{ file[1] }}</a></li>
         {% endfor %}
     </ul>
 </body>
