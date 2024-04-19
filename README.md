@@ -1,9 +1,8 @@
 # ChenChenDisk-website
-Welcome to update the website!
-Visit the website at https://chenchentown.github.io/ChenChenDisk-website/
+
 ## Start up (Start a server)
 ### Installation
-> [Releases](https://github.com/ChenChenTown/ChenChenDisk-website/releases) install the source code
+[Releases](https://github.com/ChenChenTown/ChenChenDisk-website/releases) install the source code
 Then install Flask ```pip install Flask``` and MySQL(Database)
 ### Server start 
 cd your project ```cd /yourprojectdirectry/```
