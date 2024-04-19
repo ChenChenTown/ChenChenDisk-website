@@ -3,7 +3,6 @@
 [![Gitter](https://badges.gitter.im/cnlh-nps/community.svg)](https://gitter.im/cnlh-nps/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 ![Release](https://github.com/ehang-io/nps/workflows/Release/badge.svg)
 ![GitHub All Releases](https://img.shields.io/github/downloads/ehang-io/nps/total)
-https://chenchentown.github.io/ChenChenDisk-website/
 ## Start up (Start a server)
 ### Installation
 [Releases](https://github.com/ChenChenTown/ChenChenDisk-website/releases), install the source code, 
