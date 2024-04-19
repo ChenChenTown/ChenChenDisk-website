@@ -1,7 +1,5 @@
 # ChenChenDisk-website （English）
-![](https://img.shields.io/github/stars/ehang-io/nps.svg)   ![](https://img.shields.io/github/forks/ehang-io/nps.svg)
-[![Gitter](https://badges.gitter.im/cnlh-nps/community.svg)](https://gitter.im/cnlh-nps/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
-![GitHub All Releases](https://img.shields.io/github/downloads/ehang-io/nps/total)
+https://chenchentown.github.io/ChenChenDisk-website/
 ## Start up (Start a server)
 ### Installation
 [Releases](https://github.com/ChenChenTown/ChenChenDisk-website/releases), install the source code, 
